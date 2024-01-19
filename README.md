@@ -1,2 +1,3 @@
-# zeenbee
-ZeenBee: An Ecommerce platform.
+# ZenBee
+
+An E-Commerce platform.
