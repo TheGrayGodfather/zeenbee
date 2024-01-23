@@ -15,9 +15,9 @@ const PaiCharts = lazy(() => import("./pages/charts/PaiCharts.tsx"));
 const LineCharts = lazy(() => import("./pages/charts/LineCharts.tsx"));
 
 // apps
-const Stopwatch = lazy(() => import("./pages/apps/Stopwatch.tsx"))
-const Coupon = lazy(() => import("./pages/apps/Coupon.tsx"))
-const Toss = lazy(() => import("./pages/apps/Toss.tsx"))
+const Stopwatch = lazy(() => import("./pages/apps/Stopwatch.tsx"));
+const Coupon = lazy(() => import("./pages/apps/Coupon.tsx"));
+const Toss = lazy(() => import("./pages/apps/Toss.tsx"));
 
 const App = () => {
   return (
