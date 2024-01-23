@@ -103,6 +103,7 @@ const Sidebar = () => {
     <Box
       component={"aside"}
       sx={{
+        bgcolor: (theme) => theme.palette.background.paper,
         minHeight: "100%",
         p: 2,
       }}
