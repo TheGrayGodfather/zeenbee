@@ -1,10 +1,11 @@
+import { Box } from "@mui/material";
 
 const Product = () => {
   return (
-    <div>
+    <Box component={"main"} sx={{ p: 2 }}>
       Product
-    </div>
-  )
-}
+    </Box>
+  );
+};
 
-export default Product
+export default Product;

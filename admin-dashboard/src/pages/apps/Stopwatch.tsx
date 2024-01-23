@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 
-const Customer = () => {
+const Stopwatch = () => {
   return (
     <Box component={"main"} sx={{ p: 2 }}>
-      Customer
+      Stopwatch
     </Box>
   );
 };
 
-export default Customer;
+export default Stopwatch;

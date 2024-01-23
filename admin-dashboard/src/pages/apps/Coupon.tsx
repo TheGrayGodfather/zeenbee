@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 
-const Customer = () => {
+const Coupon = () => {
   return (
     <Box component={"main"} sx={{ p: 2 }}>
-      Customer
+      Coupon
     </Box>
   );
 };
 
-export default Customer;
+export default Coupon;

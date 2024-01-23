@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 
-const Customer = () => {
+const PaiCharts = () => {
   return (
     <Box component={"main"} sx={{ p: 2 }}>
-      Customer
+      PaiCharts
     </Box>
   );
 };
 
-export default Customer;
+export default PaiCharts;

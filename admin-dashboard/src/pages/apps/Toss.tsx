@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 
-const Customer = () => {
+const Toss = () => {
   return (
     <Box component={"main"} sx={{ p: 2 }}>
-      Customer
+      Toss
     </Box>
   );
 };
 
-export default Customer;
+export default Toss;
