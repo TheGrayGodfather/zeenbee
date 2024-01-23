@@ -114,9 +114,9 @@ const Sidebar = () => {
       <Stack direction={"column"}>
         {menuContent.map((item) => (
           <Stack key={item.heading} direction={"column"} sx={{ marginTop: 2 }}>
-            <Typography component={"h5"}>{item.heading}</Typography>
+            <Typography component={"h5"} textTransform={"uppercase"} sx={{color: (theme) => theme.palette.text.secondary}}>{item.heading}</Typography>
 
-            <MenuList sx={{ paddingTop: 1, gap: 2 }}>
+            <MenuList sx={{ paddingTop: 2, gap: 2 }}>
               {item.list.map((itemInsideList) => (
                 <Link
                   key={itemInsideList.url}
