@@ -27,7 +27,7 @@ const App = () => {
           container
           columnSpacing={2}
           sx={{
-            bgcolor: (theme) => theme.palette.grey[50],
+            bgcolor: (theme) => theme.palette.grey[100],
             minHeight: "100vh",
           }}
         >

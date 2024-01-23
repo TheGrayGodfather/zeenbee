@@ -10,3 +10,11 @@ type menuContentType = {
     };
   }[];
 }[];
+
+type widgetContentType = {
+  percent: number;
+  amount: boolean;
+  value: number;
+  heading: string;
+  color: string;
+};
