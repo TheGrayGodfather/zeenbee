@@ -1,13 +1,13 @@
 import { Suspense, lazy } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoadingSkeleton from "./components/skeleton/LoadingSkeleton";
-import Sidebar from "./components/Sidebar";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Grid } from "@mui/material";
+import Sidebar from "./components/Sidebar.tsx";
 
-const Dashboard = lazy(() => import("./pages/Dashboard"));
-const Customer = lazy(() => import("./pages/Customer"));
-const Product = lazy(() => import("./pages/Product"));
-const Transaction = lazy(() => import("./pages/Transaction"));
+const Dashboard = lazy(() => import("./pages/Dashboard.tsx"));
+const Customer = lazy(() => import("./pages/Customer.tsx"));
+const Product = lazy(() => import("./pages/Product.tsx"));
+const Transaction = lazy(() => import("./pages/Transaction.tsx"));
 
 const App = () => {
   return (
